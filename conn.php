@@ -11,7 +11,7 @@ $db_name = "yUG8OsaaEN";
 
 $data = mysqli_connect($sname, $unmae, $password, $db_name);
 
-if (!$conn) {
+if (!$data) {
 
     echo "Connection failed!";
 
