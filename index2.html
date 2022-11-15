@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Single Page Application</title>
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet" />
+    <link href="stylesheets/style.css" rel="stylesheet" />
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/angular-route.js"></script>
+    <script src="scripts/Controllers/spa-controllers.js"></script>
+    <script src="scripts/Controllers/spa-routers.js"></script>
+</head>
+<body ng-app="SinglePageApp" ng-controller="HomeController">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a title="SPA - TechFunda" class="navbar-brand">SPA</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ><a href="login.php">Home</a></li>
+                    <li ><a href="red.html">About us</a></li>
+                    <li class="active"><a href="#/contact">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        <h1>Contact us</h1>
+        <p>Chennai, India.</p>
+        <!-- <div ng-view></div> -->
+    </div>
+</body>
+</html>

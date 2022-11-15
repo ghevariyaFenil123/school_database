@@ -1,0 +1,57 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}.header{
+    background-color: aqua;
+    line-height:70px;
+    padding-left: 30px;
+    border:2px solid darkblue;
+
+
+}
+.header a{
+    text-decoration: none;
+}
+.logout{
+    float : right;
+    padding-right: 30px;
+    
+}
+
+ul{
+    background-color:darkblue;
+   
+    width:16%;
+    height:100%;
+    position: fixed;
+    padding-top: 5%;
+    text-align: center;
+   
+}
+.title{
+    font-size: 30px;
+    color:darkblue;
+    font-weight: 500;
+}
+ul li{
+ list-style: none;
+ padding-bottom: 30px;
+ font-size: 15px;  
+ border:2px solid aqua;
+}
+ ul li a:hover{
+    color:white;
+ }
+ ul li a{
+    color:aqua;
+    text-decoration: none;
+    font-weight: bold;
+
+ }
+ 
+
+ .content{
+    margin-left: 20%;
+    margin-top: 5%;
+ }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div align='center'>
+            <a href="#!/login">login</a>
+            <a href="#!/login">registaratiion</a>
+        </div>
+        <div ng-view  align='center'></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+    <script>
+        angular
+        .module('spaApp', ['ngRoute'])
+        .config(function($routeProvider) {
+            $routeProvider
+            .when("#!/login",
+            {
+                template : "<h1> this is registartion</h1>"
+            })
+        })
+
+    </script>
+    
+</body>
+</html>
